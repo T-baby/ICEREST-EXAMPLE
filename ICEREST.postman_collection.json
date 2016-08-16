@@ -1,0 +1,67 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ICEREST测试示例",
+		"_postman_id": "c6cedbdf-aa83-52c7-2a6b-92c09a2b28d9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "获取所有",
+			"request": {
+				"url": "http://127.0.0.1:8080/v1/item",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "插入",
+			"request": {
+				"url": "http://127.0.0.1:8080/v1/item?content=hello world",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "修改",
+			"request": {
+				"url": "http://127.0.0.1:8080/v1/item?id=57b2cdbe907870038e4f3f1d&content=sss",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "删除",
+			"request": {
+				"url": "http://127.0.0.1:8080/v1/item?id=57b2cdbe907870038e4f3f1d",
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
